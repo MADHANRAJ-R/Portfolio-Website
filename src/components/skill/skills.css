@@ -1,0 +1,56 @@
+/* Styles for the skill section */
+#skillsection {
+  text-align: center;
+  padding: 50px 0;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+#skillsection h1 {
+  font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(238, 235, 235);
+}
+
+.skillpara {
+  font-size: 18px;
+  color: #706f6f;
+  padding: 9px;
+}
+
+/* Styles for the logo containers */
+.imgcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Styles for individual logo cards */
+.mernlogo {
+  width: 150px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mernlogo:hover {
+  transform: scale(1.1);
+}
+
+/* Styles for logo images */
+.logoimg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .mernlogo {
+    width: 120px;
+  }
+}
