@@ -1,7 +1,8 @@
 import React from 'react';
 import './project.css';
-import project1 from '../../assets/weatherimg.png'
+import project1 from '../../assets/weatherImg1.png'
 import project2 from '../../assets/todoimg.png'
+import project3 from '../../assets/portfolioImg.png'
 
 const Project = () => {
   
@@ -36,15 +37,18 @@ const Project = () => {
                </div>
             </div>
             <div className="container">
-              <img src={project1} alt="project1img" className="projectImg" />
+              <img src={project3} alt="project1img" className="projectImg" />
               <p className='prpara'>Portfolio Website</p>
               <div className="demogit">
                  <button className="demo blockbtn">Demo</button>
+                 <a href="https://github.com/MADHANRAJ-R/Portfolio-Website.git" target='_blank' rel='noopener noreferrer'>
+
                  <button className="github">GitHub</button>
+                 </a>
                </div>
             </div>
         </div>
-
+        
 
     </section>
   )

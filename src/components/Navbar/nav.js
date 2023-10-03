@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './nav.css';
-import menu from '../../assets/menulogo.png'
+import menu from '../../assets/menulogo3.png'
 
 import githugImg from '../../assets/github.png';
 import {Link} from 'react-scroll';
@@ -8,7 +8,12 @@ const Navbar = () => {
   const [showmenu,setshowmenu]=useState(false);
   return (
     <nav className='navbar'>
-        <p className="name"> &lt;MADAN /&gt; </p>
+        <a href="#home">
+         <p className="name"> &lt;MADAN /&gt; </p>
+        </a>
+          
+
+        
         <div className='desktopmenu'>
           
           <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={100} className="desktopmenulistitem">Home</Link>

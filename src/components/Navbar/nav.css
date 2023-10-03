@@ -78,12 +78,19 @@
     .desktopmenu {
       display: none;
     }
+    .name{
+      font-size: 18px;
+    }
+   .navbar{
+    padding: 10px 12px;
+   }
   
     .mobilemenu {
       display: block;
       object-fit: cover;
       width: 3rem;
       padding: 10px;
+      padding-right: 0px;
     }
     .githubBtn,
   .githubImg {

@@ -1,4 +1,3 @@
-/* Styles for the skill section */
 #skillsection {
   text-align: center;
   padding: 50px 0;
@@ -18,7 +17,7 @@
   padding: 9px;
 }
 
-/* Styles for the logo containers */
+
 .imgcontainer {
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +26,7 @@
   margin-top: 20px;
 }
 
-/* Styles for individual logo cards */
+
 .mernlogo {
   width: 150px;
   background-color: #fff;
@@ -42,13 +41,12 @@
   transform: scale(1.1);
 }
 
-/* Styles for logo images */
 .logoimg {
   max-width: 100%;
   height: auto;
 }
 
-/* Media query for responsiveness */
+
 @media screen and (max-width: 768px) {
   .mernlogo {
     width: 120px;
