@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './home.css';
-import resume from '../../assets/Madhanraj_R_Resume-.pdf';
+import resume from '../../assets/Madhanraj_Resume-.pdf';
 
 
 
